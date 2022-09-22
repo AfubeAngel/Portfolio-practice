@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding:0px;
+}
+
+
+
+.hero {
+    background-image: url('james-barr-zy5JTdcC0fE-unsplash\ 1-min.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*width: 1440px;*/
+    height: 740px;
+    width:100%;
+} 
+
+.nav {
+    display: flex;
+    justify-content: flex-end; 
+    height: 19px;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+.nav li {
+    padding-left: 5px;
+    padding-right: 30px;
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: grey;
+}
+
+
+.intro {
+width: 378px;
+height: 116px;
+margin-left: 95px;
+/*margin-top: 181px;*/
+margin-top: 170px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 58px;
+}
+
+.bio {
+/*width: 467px;*/
+width:430px;
+height: 144px;
+margin-left: 90px;
+margin-top: 24px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+
+.hire {
+width: 189px;
+height: 74px;
+margin-left: 90px;
+margin-top: 32px;
+cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.icons i {
+    padding-bottom: 30px;
+    padding-right: 50px;
+}
+
+@media (max-width:768px) {
+    .nav {
+        display: none;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .hero {
+        background-image: url('james-barr-zy5JTdcC0fE-unsplash\ 1-min.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        /*width: 1440px;*/
+        height: 740px;
+        width:100%;
+        padding: 0, 20px;
+    }
+
+}
+
+/*ABOUT ME SECTION*/
+
+.about-me {
+    /*width: 1440px;*/
+    width: 100%;
+    height: 636.78px;
+    display: flex;
+    flex-basis: 50%;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #F2F2F2;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.about-pic {
+    width: 505px;
+    height: 636.78px;
+    margin-left: 29px;
+}
+
+.aboutme-writeup {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.about-title {
+    width: 143px;
+    height: 21px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 21px;
+    color: #404040;
+}
+
+.about-paul {
+    width: 660px;
+    height: 504px;
+    padding-top: 20px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #404040;
+}
+
+.about-paul p {
+    padding-top: 20px;
+}
+    
+
+
+

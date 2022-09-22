@@ -1,0 +1,30 @@
+.about-pic {
+    width: 505.92px;
+    height: 728.42px;
+}
+
+.aboutme-writeup {
+    padding-top: 15px;
+}
+
+.about-title {
+width: 143px;
+height: 21px;
+left: 625px;
+top: 826px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 21px;
+color: #404040;
+}
+
+position: absolute;
+width: 1440px;
+height: 1342px;
+left: 0px;
+top: 1449px;
+
+background: #F2F2F2;
